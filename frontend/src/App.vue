@@ -1,6 +1,6 @@
 <script setup>
 import SearchBar from "./components/SearchBar.vue";
-import ImageSlider from "./components/ImageSlider.vue";
+import ImageSlider from "./components/Album.vue";
 </script>
 
 <template>
