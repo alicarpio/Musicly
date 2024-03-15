@@ -16,17 +16,22 @@ defineProps({
 </script>
 
 <template>
-  <div class="w-3/12">
-    <div class="h-56">
-      <img :src=url alt="Image" class="h-full object-cover rounded-xl "/>
-    </div>
-    <div>
-      <h3 class="text-lg font-semibold">{{ albumName }}</h3>
-      <p class="text-sm text-gray-500">{{ artistName }}</p>
-    </div>
+  <div class="flex flex-col items-start">
+    <img :src=url alt="Image" class="image-item"/>
+
+    <h3 class="text-lg font-semibold">{{ albumName }}</h3>
+    <p class="text-sm text-gray-500">{{ artistName }}</p>
   </div>
 </template>
 
 <style scoped>
+.image-item {
+  width: 14em;
+  height: 13em;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 5px;
+}
+
 
 </style>
