@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'debug' => (bool) env('APP_DEBUG', false),
+    'debug' => (bool)env('APP_DEBUG', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -120,6 +120,8 @@ return [
     */
 
     'key' => env('APP_KEY'),
+
+    'lastfm_api_key' => env('LAST_FM_API_KEY'),
 
     'cipher' => 'AES-256-CBC',
 
